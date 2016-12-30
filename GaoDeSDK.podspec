@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GaoDeSDK"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "aaaaaa"
 
   # This description is used to generate tags and improve search results.
@@ -118,10 +118,10 @@ fdskjfkksdjkfsjdkfjkdskdkjffdskfjksdjfkjsdkflsdjfkljsdklfjdksljfsdljflsd
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
-
+  s.frameworks = "UIKit", "Foundation","CoreGraphics","QuartzCore","CoreLocation","CoreTelephony","SystemConfiguration","Security","AdSupport"
+  s.weak_framework = "JavaScriptCore"
   # s.library   = "iconv"
-  # s.libraries = "iconv", "xml2"
+  s.libraries = "libz", "libstdc++6.0.9","libc++","libstdc++6.0.9","libc++"
 
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
