@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GaoDeSDK"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "aaaaaa"
 
   # This description is used to generate tags and improve search results.
@@ -120,7 +120,7 @@ fdskjfkksdjkfsjdkfjkdskdkjffdskfjksdjfkjsdkflsdjfkljsdklfjdksljfsdljflsd
   # s.framework  = "SomeFramework"
   s.frameworks = "UIKit", "Foundation","CoreGraphics","QuartzCore","CoreLocation","CoreTelephony","SystemConfiguration","Security","AdSupport"
   s.weak_framework = "JavaScriptCore"
-  s.vendored_frameworks = "AMapFoundationKit.framework","AMapNaviKit.framework"
+  s.vendored_frameworks = "GaoDeSDK/AMapFoundationKit.framework","GaoDeSDK/AMapNaviKit.framework"
   # s.library   = "iconv"
   s.libraries = "z", "stdc++6.0.9","c++","stdc++6.0.9","c++"
 
