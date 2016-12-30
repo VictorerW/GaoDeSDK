@@ -1,4 +1,4 @@
-#
+
 #  Be sure to run `pod spec lint GaoDeSDK.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GaoDeSDK"
-  s.version      = "0.0.10"
+  s.version      = "0.0.11"
   s.summary      = "aaaaaa"
 
   # This description is used to generate tags and improve search results.
@@ -106,7 +106,7 @@ fdskjfkksdjkfsjdkfjkdskdkjffdskfjksdjfkjsdkflsdjfkljsdklfjdksljfsdljflsd
   #
 
   # s.resource  = "icon.png"
-  # s.resources = "Resources/*.png"
+   s.resources = "GaoDeSDK/AMap.bundle","GaoDeSDK/AMapNavi.bundle"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
