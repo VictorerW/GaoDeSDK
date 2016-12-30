@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GaoDeSDK"
-  s.version      = "0.0.8"
+  s.version      = "0.0.10"
   s.summary      = "aaaaaa"
 
   # This description is used to generate tags and improve search results.
@@ -59,7 +59,7 @@ fdskjfkksdjkfsjdkfjkdskdkjffdskfjksdjfkjsdkflsdjfkljsdklfjdksljfsdljflsd
   # s.social_media_url   = "http://twitter.com/VictorerW"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
+  # 
   #  If this Pod runs only on iOS or OS X, then specify the platform and
   #  the deployment target. You can optionally include the target after the platform.
   #
@@ -120,7 +120,7 @@ fdskjfkksdjkfsjdkfjkdskdkjffdskfjksdjfkjsdkflsdjfkljsdklfjdksljfsdljflsd
   # s.framework  = "SomeFramework"
   s.frameworks = "OpenGLES","UIKit", "Foundation","CoreGraphics","QuartzCore","CoreLocation","CoreTelephony","SystemConfiguration","Security","AdSupport","JavaScriptCore"
   #s.weak_framework = "JavaScriptCore"
-  s.vendored_frameworks = "GaoDeSDK/AMapFoundationKit.framework","GaoDeSDK/AMapNaviKit.framework"
+  s.vendored_frameworks = "GaoDeSDK/AMapFoundationKit.framework","GaoDeSDK/AMapNaviKit.framework","GaoDeSDK/AMapSearchKit.framework","GaoDeSDK/MAMapKit.framework"
   # s.library   = "iconv"
   s.libraries = "z", "stdc++6.0.9","c++"
 
@@ -131,7 +131,7 @@ fdskjfkksdjkfsjdkfjkdskdkjffdskfjksdjfkjsdkflsdjfkljsdklfjdksljfsdljflsd
   #  where they will only apply to your library. If you depend on other Podspecs
   #  you can include multiple dependencies to ensure it works.
 
-  # s.requires_arc = true
+  s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
